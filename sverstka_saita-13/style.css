@@ -1,0 +1,29 @@
+.header-flex{
+    background-image:url(assets/fon_1.svg) ;
+
+}
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.ENG-in-header{
+    background: none;
+    padding: 0;
+    border: none;
+    color: white;
+}
+.header-links a {
+    margin-right: 24px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
